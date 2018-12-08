@@ -1,7 +1,7 @@
 """ Import Calculator """
 from itertools import groupby
 def import_all():
-""" import_all is function sum product since 2015-2018 
+""" import_all is function sum product since 2014-2018 
 	num23 = วัตถุดิบใช้ผลิตอาหารสัตว์
 	num27 = เชื้อเพลิงที่ได้จากแร่
 	num31 = ปุ๋ย
