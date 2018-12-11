@@ -17,7 +17,9 @@ def import_all():
     num76 = อลูมิเนียมและของทำด้วยอลูมิเนียม
     num90 = อุปกรณ์ที่ใช้ทางทัศนศาสตร์
     num = อื่นๆ
-    thai_baht_import = มูลค่านำเข้าเงินบาท
+    thai_export = มูลค่าส่งเข้าของไทย
+	total_baht = มูลค่าเงินส่งเข้า
+	total_duty = อากรขาเข้า
     """
     years = range(2557, 2561)
     for year in years:
@@ -27,10 +29,13 @@ def import_all():
         table = [row for row in data]
         table[:4]
 
-    thai_baht_import = groupby(table, lambda x: x[1])
-    for key, group in thai_baht_import:
-        total_baht = 0
-        for item in group:
-            total_baht += int(item[2])
-            print(item[1], total_baht)
+    thai_import = groupby(table, lambda x: x[1])
+    for key, group in thai_import:
+       total_baht = 0
+       total_duty = 0
+       for item in group:
+           total_baht += int(item[2])
+           total_duty += int(item[3])
+           print(item[1], total_baht, total_duty)
+
 import_all()
