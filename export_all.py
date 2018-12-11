@@ -15,7 +15,10 @@ def export_all():
 	num85 = เครื่องอุปกรณ์ไฟฟ้าและส่วนประกอบ
 	num87 = ยานยนต์และส่วนประกอบ
 	num = อื่นๆ
-	thai_baht_export = มูลค่าเงินส่งออก
+	thai_export = มูลค่าส่งออกของไทย
+	total_baht = มูลค่าเงินส่งออก
+	total_duty = อากรขาออก
+	
     """
     years = range(2557, 2561)
     for year in years:
