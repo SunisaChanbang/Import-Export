@@ -19,8 +19,7 @@ def export_all():
 	total_baht = รวมมูลค่าเงินส่งออก
 	total_duty = รวมอากรขาออก
 	total_weight = รวมน้ำหนัก
-    """
-    years = range(2557, 2561)
+    """    years = range(2557, 2561)
     for year in years:
         path = 'export%d.txt' % year
         file = open(path)
@@ -37,5 +36,5 @@ def export_all():
            total_baht += int(item[2])
            total_duty += int(item[3])
            total_weight += int(item[4])
-           print(item[1], total_baht, total_duty,total_weight)
+           print(item[1], total_baht, total_duty, total_weight)
 export_all()
