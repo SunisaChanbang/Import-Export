@@ -39,6 +39,6 @@ def import_all():
            total_baht += int(item[2])
            total_duty += int(item[3])
            total_weight += int(item[4])
-           print(item[1], total_baht, total_duty,total_weight)
+           print(item[1], total_baht, total_duty, total_weight)
 
 import_all()
