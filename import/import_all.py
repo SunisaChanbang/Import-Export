@@ -30,8 +30,8 @@ def import_all():
         table = [row for row in data]
         table[:4]
 
-    thai_import = groupby(table, lambda x: x[1])
-    for key, group in thai_import:
+    thai_baht_import = groupby(table, lambda x: x[1])
+    for key, group in thai_baht_import:
        total_baht = 0
        total_duty = 0
        total_weight = 0
@@ -40,5 +40,4 @@ def import_all():
            total_duty += int(item[3])
            total_weight += int(item[4])
            print(item[1], total_baht, total_duty, total_weight)
-
 import_all()

@@ -15,11 +15,9 @@ def export_all():
 	num85 = เครื่องอุปกรณ์ไฟฟ้าและส่วนประกอบ
 	num87 = ยานยนต์และส่วนประกอบ
 	num = อื่นๆ
-	thai_export = มูลค่าส่งออกของไทย
-	total_baht = รวมมูลค่าเงินส่งออก
-	total_duty = รวมอากรขาออก
-	total_weight = รวมน้ำหนัก
-    """    years = range(2557, 2561)
+	thai_baht_export = มูลค่าเงินส่งออก
+    """
+    years = range(2557, 2561)
     for year in years:
         path = 'export%d.txt' % year
         file = open(path)
@@ -27,8 +25,8 @@ def export_all():
         table = [row for row in data]
         table[:4]
 
-    thai_export = groupby(table, lambda x: x[1])
-    for key, group in thai_export:
+    thai_baht_export = groupby(table, lambda x: x[1])
+    for key, group in thai_baht_export:
        total_baht = 0
        total_duty = 0
        total_weight = 0
@@ -38,3 +36,4 @@ def export_all():
            total_weight += int(item[4])
            print(item[1], total_baht, total_duty, total_weight)
 export_all()
+
