@@ -28,12 +28,10 @@ def export_all():
     thai_baht_export = groupby(table, lambda x: x[1])
     for key, group in thai_baht_export:
        total_baht = 0
-       total_duty = 0
-       total_weight = 0
+
        for item in group:
            total_baht += int(item[2])
-           total_duty += int(item[3])
-           total_weight += int(item[4])
-           print(item[1], total_baht, total_duty, total_weight)
+           print(item[1], total_baht)
+
 export_all()
 
