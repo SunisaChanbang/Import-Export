@@ -24,7 +24,7 @@ def import_all():
     """
     years = range(2557, 2561)
     for year in years:
-        path = 'export%d.txt' % year
+        path = 'import%d.txt' % year
         file = open(path)
         data = csv.reader(file)
         table = [row for row in data]
