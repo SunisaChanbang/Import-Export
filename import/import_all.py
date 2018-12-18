@@ -22,7 +22,7 @@ def import_all():
     total_duty = รวมอากรขาเข้า
     tal_weight = รวมน้ำหนัก
     """
- years = range(2557, 2561)
+    years = range(2557, 2561)
     for year in years:
         path = 'export%d.txt' % year
         file = open(path)
