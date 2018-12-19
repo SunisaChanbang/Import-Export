@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Import-Export
 
-You can use the [editor on GitHub](https://github.com/SunisaChanbang/Traffic-jam/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+เราศึกษาและวิเคราะห์ข้อมูลเกี่ยวกับการนำเข้าและส่งออกสินค้าของประเทศไทย ตั้งแต่ปีพ.ศ.2557 ถึง พ.ศ.2561 เพื่อหาว่าสินค้าประเภทใดถูกส่งออกและนำเข้ามากที่สุดเป็น10อันดับแรกของแต่ละปีที่เราศึกษา
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### ข้อมูลที่นำมาศึกษา
 
-### Markdown
+สำนำงานกรมศุลกากรท่าเรือแหลมฉบัง ตั้งแต่ปีพ.ศ.2557-2561
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### ผลลัพธ์
 
-```markdown
-Syntax highlighted code block
+เว็บไซต์ที่นำเสนอเกี่ยวกับโปรเจค https://sunisachanbang.github.io/Import-Export/
+และวีดีโอที่นำเสนอเกี่ยวกับโปรเจค https://www.youtube.com/watch?v=bflahsuMvdg&feature=youtu.be
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SunisaChanbang/Traffic-jam/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
